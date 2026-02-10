@@ -28,7 +28,7 @@ export const Nav = ()=>{
     animate={{y:0}}
     transition={{delay:0.05}}
     
-    className=" flex sticky z-15 w-full top-0 backdrop-blur-2xl shadow-2xl justify-between items-center px-8 py-4" >
+    className=" flex sticky z-15 w-full top-0 bg-neutral-900 shadow-2xl justify-between items-center px-8 py-4" >
         <motion.div
         initial={{y:-100}}
         animate={{y:0}}
