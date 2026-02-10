@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'inter', sans-serif;
+}
+
+@theme {
+  --animate-infinite-scroll: infinite-scroll 20s linear infinite;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
