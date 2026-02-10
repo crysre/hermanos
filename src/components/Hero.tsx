@@ -20,7 +20,11 @@ export const Hero = ()=>{
             transition={{ delay:1, ease:easeInOut }}
         className="w-full text-neutral-100 text-4xl" >Enjoy your quality time</motion.p>
         <div>
-            <button className="bg-neutral-950 rounded-lg p-4 cursor-pointer text-white" >Book Now</button>
+            <motion.button
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay:1.1, ease:easeInOut }}
+            className="bg-neutral-950 rounded-lg p-4 cursor-pointer text-white" >Book Now</motion.button>
 
         </div>        
         </div>

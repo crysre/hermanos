@@ -61,7 +61,11 @@ export const Nav = ()=>{
         <div
         className="cursor-pointer text-neutral-200"
         >
-        <button className=" text-xl rounded-md p-2 cursor-pointer hover:text-white" >Book Now</button>
+        <motion.button
+        whileHover={{
+            scaleX:1.1
+        }}
+        className=" text-xl rounded-md p-2 cursor-pointer hover:text-white" >Book Now</motion.button>
         </div>
     </motion.nav>
 }
